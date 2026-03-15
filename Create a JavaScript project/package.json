@@ -1,0 +1,10 @@
+{
+  "name": "Create a JavaScript project",
+  "version": "1.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.19.11",
+    "hardhat": "^3.1.8",
+    "typescript": "~5.8.0"
+  }
+}

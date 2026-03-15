@@ -1,0 +1,142 @@
+/* ===========================
+   COMMON PAGE STYLING
+=========================== */
+
+/* Full-page container */
+.admin-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;       /* horizontal center */
+  justify-content: flex-start; /* vertical top start, can change to center if needed */
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #f3f3f3;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Main Page Title */
+.page-main-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #6a1b9a;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* ===== FORM CONTAINER ===== */
+.form-container {
+  width: 50%;                /* half-screen width */
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+/* Form labels */
+.admin-form label {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+/* Form inputs */
+.admin-form input,
+.admin-form select {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+/* Buttons (register, return, go) */
+.admin-form button,
+.register-btn,
+.return-btn,
+.small-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(45deg, #8e2de2, #c471f5);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.return-btn {
+  background: #fff;
+  color: #6a1b9a;
+  margin-top: 10px;
+}
+
+.register-btn:hover,
+.return-btn:hover,
+.small-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #c471f5, #8e2de2);
+  color: #fff;
+}
+
+/* ===== HEADER INSIDE PAGE ===== */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  padding: 20px 30px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.page-header h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+/* ===== RECORDS TABLE ===== */
+.records-table {
+  width: 50%;  /* match form width */
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.records-table th,
+.records-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: left;
+}
+
+.records-table th {
+  background: #f3e5f5;
+  color: #6a1b9a;
+}
+
+.records-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.records-table tr:hover {
+  background: #f1f0f5;
+}
+
+/* ===== CENTERS TABLE HORIZONTALLY ===== */
+.table-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

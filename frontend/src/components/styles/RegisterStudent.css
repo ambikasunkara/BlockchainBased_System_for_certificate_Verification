@@ -1,0 +1,124 @@
+/* ===== REGISTER STUDENT PAGE ===== */
+
+.register-student-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;  
+  font-family: 'Poppins', sans-serif;
+  background: #f3f3f3; /* pastel background like home */
+  box-sizing: border-box;
+}
+
+/* FULL-WIDTH HEADER */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  margin-top: 70px; /* space from top */
+  background: linear-gradient(135deg, #a8edea, #fed6e3); /* soft pastel gradient */
+  border-radius: 15px;
+  margin-bottom: 130px; /* space below header */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Header title */
+.page-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}
+
+/* Return button in header */
+.return-btn {
+  padding: 10px 20px;
+  border: 1px solid #6a1b9a;
+  border-radius: 25px;
+  background: #fff;
+  color: #6a1b9a;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.return-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #c471f5, #8e2de2);
+  color: #fff;
+}
+
+/* FORM WRAPPER CENTERED */
+.form-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+/* FORM CONTAINER */
+.form-container {
+  width: 50%;
+  background: #fff;
+  padding: 40px 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+  display: flex;
+  flex-direction: column;
+}
+
+/* FORM LABELS */
+.admin-form label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+  margin-top: 15px;
+}
+
+/* FORM INPUTS */
+.admin-form input,
+.admin-form select {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* REGISTER BUTTON CENTERED */
+.register-btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(45deg, #8e2de2, #c471f5);
+  color: #fff;
+  transition: 0.3s ease;
+
+  /* CENTER BUTTON */
+  display: block;       /* make button a block element */
+  margin: 20px auto 0;  /* top margin 20px, horizontal auto centers it */
+}
+
+.register-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #c471f5, #8e2de2);
+}
+
+
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #ddd;
+  background: #f3f3f3;
+} 

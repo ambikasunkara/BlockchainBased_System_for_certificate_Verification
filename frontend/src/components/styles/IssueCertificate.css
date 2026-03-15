@@ -1,0 +1,151 @@
+/* ===== ISSUE CERTIFICATE PAGE ===== */
+
+.issue-certificate-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: #f3f3f3;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  margin-top: 70px;
+  background: linear-gradient(135deg, #a8edea, #fed6e3);
+  border-radius: 15px;
+  margin-bottom: 100px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}
+
+.return-btn {
+  padding: 10px 20px;
+  border: 1px solid #6a1b9a;
+  border-radius: 25px;
+  background: #fff;
+  color: #6a1b9a;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.return-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #c471f5, #8e2de2);
+  color: #fff;
+}
+
+/* FORM WRAPPER */
+.form-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+/* FORM CONTAINER */
+.form-container {
+  width: 50%;
+  background: #fff;
+  padding: 40px 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+}
+
+/* FORM HEADING */
+.form-heading {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #6a1b9a;
+}
+
+/* FORM LABELS */
+.admin-form label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 6px;
+  margin-top: 15px;
+}
+/* SUCCESS MESSAGE */
+.success-message {
+  margin-top: 30px;
+  padding: 25px;
+  background: #e6e0f8; /* light pastel purple */
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+}
+
+.success-message h3 {
+  color: #6a1b9a;
+  margin-bottom: 10px;
+}
+
+.success-message p {
+  margin: 5px 0;
+  color: #333;
+  font-weight: 500;
+}
+
+/* QR CODE */
+.qr-code {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* INPUTS */
+.admin-form input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+/* ISSUE BUTTON CENTERED */
+.issue-btn {
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  background: linear-gradient(45deg, #8e2de2, #c471f5);
+  color: #fff;
+  transition: 0.3s ease;
+  display: block;
+  margin: 25px auto 0;
+}
+
+.issue-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #c471f5, #8e2de2);
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #ddd;
+  background: #f3f3f3;
+}

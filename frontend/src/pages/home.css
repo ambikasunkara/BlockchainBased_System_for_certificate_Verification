@@ -1,0 +1,158 @@
+/* Import Modern Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ===== MAIN PAGE ===== */
+.home {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(135deg, #f3e7ff, #e3f2fd);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 120px 40px;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* ===== HERO ===== */
+.hero {
+  max-width: 950px;
+  margin-bottom: 220px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  line-height: 1.3;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+/* ===== HIGHLIGHT STYLE ===== */
+.highlight {
+  background: linear-gradient(45deg, #8e2de2, #c471f5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== BUTTON ===== */
+.btn {
+  padding: 15px 40px;
+  border: none;
+  border-radius: 40px;
+  background: linear-gradient(45deg, #c471f5, #fa71cd);
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.08);
+}
+
+/* ===== SECTION ===== */
+.section {
+  width: 100%;
+  max-width: 1300px;
+  margin-top: 120px;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 70px;
+  font-weight: 600;
+}
+
+/* ===== EXTRA SPACE BEFORE ACCESS PORTAL ===== */
+.access-section {
+  margin-top: 300px;   /* increased space before access portal */
+  margin-bottom: 200px; /* space after access portal */
+}
+
+/* ===== 4 CARDS IN ONE ROW ===== */
+.features-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.features-row .card {
+  width: 23%;
+}
+
+/* ===== 3 CARDS IN ONE ROW ===== */
+.portal-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.portal-row .card {
+  width: 31%;
+}
+
+/* ===== CARD STYLE ===== */
+.card {
+  background: white;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+  transition: 0.3s ease;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #6a1b9a;
+}
+
+.card p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* ===== SMALL BUTTON ===== */
+.small-btn {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(45deg, #8e2de2, #c471f5);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.small-btn:hover {
+  transform: scale(1.05);
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  padding: 40px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #ddd;
+}
+
+/* ===== SPACER (Optional Reusable Class) ===== */
+.spacer {
+  height: 100px; /* adjust as needed */
+  width: 100%;
+}

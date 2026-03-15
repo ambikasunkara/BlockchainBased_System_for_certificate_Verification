@@ -1,0 +1,220 @@
+/* ==================================
+   GLOBAL RESET (IMPORTANT)
+================================== */
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f3f3f3;
+  color: #333;
+}
+
+/* ==================================
+   MAIN CONTAINER
+================================== */
+.student-home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: #f3f3f3; /* pastel background like home */
+  box-sizing: border-box;
+}
+
+/* ==================================
+   HEADER (FULL WIDTH BAR)
+================================== */
+.student-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  margin-top: 70px; /* space from top */
+  background: linear-gradient(135deg, #a8edea, #fed6e3); /* soft pastel gradient */
+  border-radius: 15px;
+  margin-bottom: 130px; /* space below header */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.student-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0 40px;
+  flex-wrap: wrap;
+}
+
+
+.student-header-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+  margin: 0;
+}
+
+/* ==================================
+   RETURN / LOGOUT BUTTON
+================================== */
+.student-return-btn,
+.student-logout-btn {
+  padding: 10px 20px;
+  border: 1px solid #6a1b9a;
+  border-radius: 25px;
+  background: #fff;
+  color: #6a1b9a;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.student-return-btn:hover,
+.student-logout-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(45deg, #c471f5, #8e2de2);
+  color: #fff;
+}
+
+
+/* ==================================
+   CENTER CONTENT AREA
+================================== */
+.student-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+
+/* ==================================
+   PAGE TITLE
+================================== */
+.student-dashboard-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #6a1b9a;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+/* ==================================
+   CARD
+================================== */
+.student-card {
+  background: white;
+  padding: 40px 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+  width: 100%;
+ 
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.student-card:hover {
+  transform: translateY(-6px);
+}
+
+.student-card h3 {
+  margin-bottom: 25px;
+  font-size: 22px;
+  color: #6a1b9a;
+}
+
+/* ==================================
+   INPUT FIELDS
+================================== */
+.student-input {
+  width: 100%;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.student-input:focus {
+  outline: none;
+  border: 1px solid #8e2de2;
+  box-shadow: 0 0 6px rgba(142,45,226,0.3);
+}
+
+/* ==================================
+   BUTTON
+================================== */
+.student-btn {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(45deg, #8e2de2, #c471f5);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.student-btn:hover {
+  transform: scale(1.05);
+}
+
+/* ==================================
+   CERTIFICATE DETAILS
+================================== */
+.student-card p {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #555;
+  text-align: left;
+}
+
+/* ==================================
+   CERTIFICATE IMAGES
+================================== */
+.student-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  gap: 20px;
+}
+
+.student-images img {
+  width: 150px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* ==================================
+   NO CERTIFICATE MESSAGE
+================================== */
+.student-no-cert {
+  font-size: 16px;
+  color: #c0392b;
+  background: #ffe6e6;
+  padding: 20px;
+  border-radius: 12px;
+}
+.form-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+/* ==================================
+   FOOTER
+================================== */
+.student-footer {
+  width: 100%;
+  padding: 25px 0;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #ddd;
+}

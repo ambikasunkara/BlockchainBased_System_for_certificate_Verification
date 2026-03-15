@@ -1,0 +1,130 @@
+/* ===== BODY & CONTAINER ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f3f3f3;
+  color: #333;
+}
+
+.admin-home {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 40px 40px; /* bottom padding for footer spacing */
+  text-align: center;
+}
+
+/* ===== HEADER ===== */
+.admin-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  margin-top: 70px; /* space from top */
+  background: linear-gradient(135deg, #a8edea, #fed6e3); /* soft pastel gradient */
+  border-radius: 15px;
+  margin-bottom: 130px; /* space below header */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.header-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #333;
+}
+
+.return-home-btn {
+  background: #fff;
+  color: #6a1b9a;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.return-home-btn:hover {
+  background: #f3f3f3;
+  color: #4a148c;
+  transform: scale(1.05);
+}
+
+/* ===== DASHBOARD TITLE ===== */
+.dashboard-title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #6a1b9a;
+  margin-bottom: 100px; /* space between heading and cards */
+}
+
+/* ===== CARDS ROW ===== */
+.admin-cards-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.admin-cards-row .card {
+  background: white;
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.07);
+  transition: 0.3s ease;
+  width: 31%;
+}
+
+.admin-cards-row .card h3 {
+  margin-bottom: 15x;
+  font-size: 22px;
+  font-weight: 600;
+  color: #6a1b9a;
+}
+
+.admin-cards-row .card p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.admin-cards-row .card:hover {
+  transform: translateY(-10px);
+}
+
+/* ===== SMALL BUTTON ===== */
+.small-btn {
+  padding: 10px 22px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(45deg, #8e2de2, #c471f5);
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.small-btn:hover {
+  transform: scale(1.05);
+}
+
+/* ===== ADMIN NOTE ===== */
+.admin-note {
+  margin-top: 50px;
+  font-size: 16px;
+  color: #c0392b;
+  background: #ffe6e6;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  padding: 30px 0;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #ddd;
+  margin-top: 60px;
+}
